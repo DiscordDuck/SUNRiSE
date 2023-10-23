@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1697730055 source:c:\temp\allen c++ workspace sept 2023\sunset\drivers.cpp
+	<iostream>
+	<time.h>
+	<chrono>
+	"drivers.h"
+
+1697730202 c:\temp\allen c++ workspace sept 2023\sunset\drivers.h
+
+1697731465 source:c:\temp\allen c++ workspace sept 2023\sunset\main.cpp
+	<iostream>
+	<windows.h>
+	<time.h>
+	"drivers.h"
+	"interactions.h"
+
+1697732690 source:c:\temp\allen c++ workspace sept 2023\sunset\interactions.cpp
+	<iostream>
+	<time.h>
+	"drivers.h"
+	"ascii.h"
+	"interactions.h"
+
+1697649777 c:\temp\allen c++ workspace sept 2023\sunset\interactions.h
+
+1697730814 c:\temp\allen c++ workspace sept 2023\sunset\ascii.h
+
+1697732515 source:c:\temp\allen c++ workspace sept 2023\sunset\ascii.cpp
+	<iostream>
+	<time.h>
+	"drivers.h"
+	"ascii.h"
+
