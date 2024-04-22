@@ -2,6 +2,10 @@
 #define ASCII_H_INCLUDED
 
 void generateMerchantsHouse();
+void generateRobot();
+void generateShoreLine();
+void generateFShop();
+void generateHShop();
 void generateTShop();
 void generateActivityOptions();
 

@@ -8,6 +8,7 @@ using namespace std::chrono;
 using mstime = high_resolution_clock;
 
 void pause(int seconds) {
+    if (!RELEASE_TARGET) return;
     int t = time(0) + seconds;
     do { }
     while (time(0) < t);
@@ -30,6 +31,7 @@ void type(string str) {
         if (str.at(i) == '\n') ms += 930;
         do { } while (timeSince(start) < ms);
         cout << str.at(i);
+        ms = RELEASE_TARGET ? 70 : 15;
     }
 }
 
